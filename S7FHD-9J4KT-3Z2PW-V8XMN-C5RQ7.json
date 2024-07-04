@@ -1,0 +1,32 @@
+{
+    "zones": [
+        { "zoneid": 1, "zonetag": "LAW MAIN" },
+        { "zoneid": 2, "zonetag": "FIRE/EMS" },
+        { "zoneid": 3, "zonetag": "INTEROP" },
+        { "zoneid": 4, "zonetag": "OTHER" }
+    ],
+    "talkgroups": [
+        { "znid": 1, "name": "LAW DISP", "tgid": 201, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
+        { "znid": 1, "name": "LAW TAC 1", "tgid": 202, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
+        { "znid": 1, "name": "LAW TAC 2", "tgid": 202, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
+        { "znid": 2, "name": "FIRE DISP", "tgid": 203, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "FIREGROUND", "tgid": 204, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "FIRE ADMIN", "tgid": 205, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "INTOP DISP", "tgid": 206, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "INTOP TAC", "tgid": 207, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "INTOP DOT", "tgid": 208, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "HELPDESK", "tgid": 209, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "DEMO", "tgid": 210, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "SVRADMIN", "tgid": 211, "secure": false, "encryptionKey": "" }
+    ],
+    "tones": [
+        { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
+        { "id": 2, "name": "Basic Life Support", "freqA": 110, "freqB": 220 },
+        { "id": 3, "name": "Structure Fire Residential", "freqA": 110, "freqB": 220 },
+        { "id": 4, "name": "Structure Fire Commercial", "freqA": 110, "freqB": 220 },
+        { "id": 5, "name": "Major Incident", "freqA": 110, "freqB": 220 },
+        { "id": 6, "name": "Special Incident HR/AL", "freqA": 110, "freqB": 220 },
+        { "id": 7, "name": "Misc. Advisory Tone (V-A-C)", "freqA": 110, "freqB": 220 },
+        { "id": 8, "name": "Mayday Air Traffic Incident", "freqA": 110, "freqB": 220 }
+    ]
+}
