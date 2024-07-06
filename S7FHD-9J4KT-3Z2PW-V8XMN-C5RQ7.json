@@ -1,23 +1,18 @@
 {
     "zones": [
-        { "zoneid": 1, "zonetag": "LAW MAIN" },
-        { "zoneid": 2, "zonetag": "FIRE/EMS" },
-        { "zoneid": 3, "zonetag": "INTEROP" },
-        { "zoneid": 4, "zonetag": "OTHER" }
+        { "zoneid": 1, "zonetag": "DISPATCH" },
+        { "zoneid": 2, "zonetag": "TLKARND" },
+        { "zoneid": 3, "zonetag": "ZONE 3" }
     ],
     "talkgroups": [
-        { "znid": 1, "name": "LAW DISP", "tgid": 201, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
-        { "znid": 1, "name": "LAW TAC 1", "tgid": 202, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
-        { "znid": 1, "name": "LAW TAC 2", "tgid": 202, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
-        { "znid": 2, "name": "FIRE DISP", "tgid": 203, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "FIREGROUND", "tgid": 204, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "FIRE ADMIN", "tgid": 205, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "INTOP DISP", "tgid": 206, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "INTOP TAC", "tgid": 207, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "INTOP DOT", "tgid": 208, "secure": false, "encryptionKey": "" },
-        { "znid": 4, "name": "HELPDESK", "tgid": 209, "secure": false, "encryptionKey": "" },
-        { "znid": 4, "name": "DEMO", "tgid": 210, "secure": false, "encryptionKey": "" },
-        { "znid": 4, "name": "SVRADMIN", "tgid": 211, "secure": false, "encryptionKey": "" }
+        { "znid": 1, "name": "1 CENTRAL", "tgid": 201, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
+        { "znid": 1, "name": "12 77TH", "tgid": 202, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
+        { "znid": 1, "name": "6 HOLLYWOOD", "tgid": 202, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
+        { "znid": 2, "name": "101 CENT FBK", "tgid": 203, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "106 HWD FBK", "tgid": 204, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "112 77TH FBK", "tgid": 205, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "26 AIR/K9", "tgid": 206, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "64 STAFF CMD", "tgid": 207, "secure": false, "encryptionKey": "" }
     ],
     "tones": [
         { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
