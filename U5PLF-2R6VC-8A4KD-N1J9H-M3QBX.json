@@ -1,0 +1,39 @@
+{
+    "isAuthorized": true,
+    "communityName": "GVRP",
+    "communityAbreviation": "GVRP",
+    "zones": [
+        { "zoneid": 1, "zonetag": "Z1 LAW MAIN" },
+        { "zoneid": 2, "zonetag": "Z2 FIRE/EMS" },
+        { "zoneid": 3, "zonetag": "Z3 INTEROP" },
+        { "zoneid": 4, "zonetag": "Z4 OTHER" },
+    ],
+    "talkgroups": [
+        { "znid": 1, "name": "HP Dispatch", "tgid": 100, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
+        { "znid": 1, "name": "PD Dispatch", "tgid": 101, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
+        { "znid": 1, "name": "SO Dispatch", "tgid": 102, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
+        { "znid": 2, "name": "F/EMS Disp", "tgid": 22001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "F/EMS Scene A", "tgid": 22001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "FIRE TAC 1", "tgid": 22001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "FIRE CMND", "tgid": 22001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "IOP Dispatch", "tgid": 22001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "IOP TAC-1", "tgid": 52001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "IOP TAC-2", "tgid": 52002, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "IOP TAC-3", "tgid": 52003, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "IOP CAR/CAR", "tgid": 32001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "IOP Event", "tgid": 82001, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "TOW/DOT", "tgid": 33001, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "HELPDESK", "tgid": 33002, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "SVRADMIN", "tgid": 33003, "secure": false, "encryptionKey": "" }
+    ],
+    "tones": [
+        { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
+        { "id": 2, "name": "Basic Life Support", "freqA": 110, "freqB": 220 },
+        { "id": 3, "name": "Structure Fire Residential", "freqA": 110, "freqB": 220 },
+        { "id": 4, "name": "Structure Fire Commercial", "freqA": 110, "freqB": 220 },
+        { "id": 5, "name": "Major Incident", "freqA": 110, "freqB": 220 },
+        { "id": 6, "name": "Special Incident HR/AL", "freqA": 110, "freqB": 220 },
+        { "id": 7, "name": "Misc. Advisory Tone (V-A-C)", "freqA": 110, "freqB": 220 },
+        { "id": 8, "name": "Mayday Air Traffic Incident", "freqA": 110, "freqB": 220 }
+    ]
+}
