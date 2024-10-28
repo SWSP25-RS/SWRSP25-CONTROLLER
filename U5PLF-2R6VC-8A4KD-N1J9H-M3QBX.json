@@ -9,7 +9,7 @@
         { "zoneid": 4, "zonetag": "Z4 OTHER" }
     ],
     "talkgroups": [
-        { "znid": 1, "name": "HP Dispatch", "tgid": 100, "conventional": false, "secure": true, "encryptionKey": "1SA01" },
+        { "znid": 1, "name": "HP Dispatch", "tgid": 33004, "conventional": false, "secure": true, "encryptionKey": "1SA01" },
         { "znid": 1, "name": "PD Dispatch", "tgid": 101, "conventional": false, "secure": true, "encryptionKey": "1PD01" },
         { "znid": 1, "name": "SO Dispatch", "tgid": 102, "conventional": false, "secure": true, "encryptionKey": "1PD02" },
         { "znid": 2, "name": "F/EMS Disp", "tgid": 22001, "conventional": true, "secure": false, "encryptionKey": "" },
