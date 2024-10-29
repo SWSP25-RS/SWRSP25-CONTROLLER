@@ -1,6 +1,6 @@
 {
     "isAuthorized": true,
-    "communityName": "MATHIEU",
+    "communityName": "HB Server",
     "communityAbbreviation": "MATHIEU",
     "zones": [
         { "zoneid": 1, "zonetag": "LSSD MAIN" },
@@ -21,7 +21,7 @@
         { "znid": 3, "name": "MRSA Dispatch", "tgid": 10289, "conventional": true, "secure": false, "encryptionKey": "" },
         { "znid": 3, "name": "Patrol", "tgid": 102810, "conventional": true, "secure": false, "encryptionKey": "" },
         { "znid": 3, "name": "OP 1", "tgid": 102811, "conventional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "OP 2", "tgid": 102812, "conventional": true, "secure": false, "
+        { "znid": 3, "name": "OP 2", "tgid": 102812, "conventional": true, "secure": false, "encryptionKey": "" },
         { "znid": 4, "name": "Intop Dispatch", "tgid": 102813, "conventional": true, "secure": false, "encryptionKey": "" },
         { "znid": 4, "name": "Intop TAC", "tgid": 102814, "conventional": true, "secure": false, "encryptionKey": "" },
         { "znid": 4, "name": "Intop DOT", "tgid": 102815, "conventional": true, "secure": false, "encryptionKey": "" },
