@@ -4,35 +4,40 @@
         { "zoneid": 2, "zonetag": "Z2 Fire/EMS" },
         { "zoneid": 3, "zonetag": "Z3 Interop" },
         { "zoneid": 4, "zonetag": "Z4 Corrections" },
-        { "zoneid": 5, "zonetag": "Z5 Mechanics" }
+        { "zoneid": 5, "zonetag": "Z5 Mechanics" },
+        { "zoneid": 5, "zonetag": "Z6 Aircraft" }
     ],
     "talkgroups": [
-        { "znid": 1, "name": "City Disp", "tgid": 103191, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
-        { "znid": 1, "name": "State Disp", "tgid": 103192, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
-        { "znid": 1, "name": "Law Tac 1", "tgid": 103193, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
-        { "znid": 1, "name": "Law Tac 2", "tgid": 103194, "convectional": false, "secure": true, "encryptionKey": "1FD01" },
-        { "znid": 1, "name": "Law Tac 3", "tgid": 103195, "secure": false, "encryptionKey": "" },
+        { "znid": 1, "name": "CITY DISP", "tgid": 103191, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
+        { "znid": 1, "name": "STATE DISP", "tgid": 103192, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
+        { "znid": 1, "name": "LAW TAC 1", "tgid": 103193, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
+        { "znid": 1, "name": "LAW TAC 2", "tgid": 103194, "convectional": false, "secure": true, "encryptionKey": "1FD01" },
+        { "znid": 1, "name": "LAW TAC 3", "tgid": 103195, "secure": false, "encryptionKey": "" },
         { "znid": 1, "name": "LE COMMAND", "tgid": 103196, "secure": false, "encryptionKey": "" },
         
         { "znid": 2, "name": "FIRE DISP", "tgid": 103197, "convectional": true, "secure": false, "encryptionKey": "" },
         { "znid": 2, "name": "FIREGROUND", "tgid": 103198, "convectional": true, "secure": false, "encryptionKey": "" },
         { "znid": 2, "name": "FIRE COMMAND", "tgid": 103199, "convectional": true, "secure": false, "encryptionKey": "" },
         
-        { "znid": 3, "name": "Intop Disp", "tgid": 1031910, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "Intop Tac", "tgid": 1031911, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "Intop DOT", "tgid": 1031912, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "INTEROP DISP", "tgid": 1031910, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "INTEROP TAC", "tgid": 1031911, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "INTEROP DOT", "tgid": 1031912, "convectional": true, "secure": false, "encryptionKey": "" },
         
-        { "znid": 4, "name": "Prison Disp", "tgid": 1031913, "secure": false, "encryptionKey": "" },
-        { "znid": 4, "name": "Court 1", "tgid": 1031914, "secure": false, "encryptionKey": "" },
-        { "znid": 4, "name": "Court 2", "tgid": 1031915, "secure": false, "encryptionKey": "" },
-        { "znid": 4, "name": "Court 3", "tgid": 1031916, "secure": false, "encryptionKey": "" },
-        { "znid": 4, "name": "Prison Transport", "tgid": 1031917, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "PRISON DISP", "tgid": 1031913, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "COURT 1", "tgid": 1031914, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "COURT 2", "tgid": 1031915, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "COURT 3", "tgid": 1031916, "secure": false, "encryptionKey": "" },
+        { "znid": 4, "name": "PRISON TRANSPORT", "tgid": 1031917, "secure": false, "encryptionKey": "" },
         
         { "znid": 5, "name": "MECH1", "tgid": 1031918, "secure": false, "encryptionKey": "" },
         { "znid": 5, "name": "MECH2", "tgid": 1031919, "secure": false, "encryptionKey": "" },
         { "znid": 5, "name": "MECH3", "tgid": 1031920, "secure": false, "encryptionKey": "" },
         { "znid": 5, "name": "MECH4", "tgid": 1031921, "secure": false, "encryptionKey": "" },
-        { "znid": 5, "name": "Other", "tgid": 1031922, "secure": false, "encryptionKey": "" }
+        { "znid": 5, "name": "OTHER", "tgid": 1031922, "secure": false, "encryptionKey": "" },
+
+        { "znid": 6, "name": "ARC CITY ATC", "tgid": 1031923, "secure": false, "encryptionKey": "" },
+        { "znid": 6, "name": "SANDY SHORES ATC", "tgid": 1031924, "secure": false, "encryptionKey": "" },
+        { "znid": 6, "name": "UNICOM", "tgid": 1031925, "secure": false, "encryptionKey": "" }
     ],
     "tones": [
         { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
