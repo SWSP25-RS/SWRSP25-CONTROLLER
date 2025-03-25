@@ -1,24 +1,30 @@
 {
+    "isAuthorized": true,
+    "communityName": "State of Georgia Roleplay",
+    "communityAbbreviation": "SOGRP",
     "zones": [
-        { "zoneid": 1, "zonetag": "Z1 Main" },
-        { "zoneid": 2, "zonetag": "Z2 CONVL" },
-        { "zoneid": 3, "zonetag": "Z3 27 RDC IOP" }
+        { "zoneid": 1, "zonetag": "Z1 GSP Main" },
+        { "zoneid": 2, "zonetag": "Z2 FULTON CO" },
+        { "zoneid": 3, "zonetag": "Z3 APD LAW" }
     ],
     "talkgroups": [
-        { "znid": 1, "name": "NV-CORE", "tgid": 11001, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
-        { "znid": 1, "name": "LV-NORTH", "tgid": 21001, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
-        { "znid": 1, "name": "LV-SOUTH", "tgid": 21002, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
-        { "znid": 1, "name": "NV-FIREOPS", "tgid": 41001, "convectional": false, "secure": true, "encryptionKey": "1FD01" },
-        { "znid": 2, "name": "SP-51", "tgid": 52001, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "SP-52", "tgid": 52002, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "SP-53", "tgid": 52003, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "CC-CAR/CAR", "tgid": 32001, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "PD-CAR/CAR", "tgid": 22001, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "FD-GROUND", "tgid": 82001, "convectional": true, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "27 RDC TAC", "tgid": 33001, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "NV-RECORDS", "tgid": 33002, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "27 NVDOT", "tgid": 33003, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "HELPDESK", "tgid": 33004, "secure": false, "encryptionKey": "" }
+        { "znid": 1, "name": "GSP Statewide", "tgid": 101, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
+        { "znid": 1, "name": "GSP County", "tgid": 105, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
+        { "znid": 1, "name": "GSP Metro", "tgid": 109, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
+        { "znid": 1, "name": "GSP TAC 1", "tgid": 103, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
+        { "znid": 1, "name": "GSP CAR-CAR", "tgid": 104, "convectional": true, "secure": false, "encryptionKey": "" },
+
+        { "znid": 2, "name": "FCSO Disp", "tgid": 105, "convectional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 2, "name": "FCSO TAC 1", "tgid": 106, "convectional": false, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "FCSO TAC 2", "tgid": 107, "convectional": false, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "FCSO Jail Ops", "tgid": 108, "convectional": false, "secure": false, "encryptionKey": "" },
+        { "znid": 2, "name": "FPD DISP", "tgid": 1051, "convectional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 2, "name": "FPD TAC 1", "tgid": 1052, "convectional": false, "secure": true, "encryptionKey": "" },
+
+        { "znid": 3, "name": "APD Z3 Disp", "tgid": 109, "secure": true, "encryptionKey": "" },
+        { "znid": 3, "name": "APD Z3 Supv", "tgid": 110, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "APD TAC 1", "tgid": 111, "secure": false, "encryptionKey": "" },
+        { "znid": 3, "name": "APD TAC 2", "tgid": 112, "secure": false, "encryptionKey": "" }
     ],
     "tones": [
         { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
