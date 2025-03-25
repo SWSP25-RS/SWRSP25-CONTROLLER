@@ -5,7 +5,7 @@
         { "zoneid": 3, "zonetag": "Z3 Interop" },
         { "zoneid": 4, "zonetag": "Z4 Corrections" },
         { "zoneid": 5, "zonetag": "Z5 Mechanics" },
-        { "zoneid": 5, "zonetag": "Z6 Aircraft" }
+        { "zoneid": 6, "zonetag": "Z6 Aircraft" }
     ],
     "talkgroups": [
         { "znid": 1, "name": "CITY DISP", "tgid": 103191, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
