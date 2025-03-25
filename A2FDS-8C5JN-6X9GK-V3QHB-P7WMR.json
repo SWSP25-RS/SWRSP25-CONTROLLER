@@ -1,4 +1,7 @@
 {
+    "isAuthorized": true,
+    "communityName": "Arcadian City Roleplay",
+    "communityAbbreviation": "ACRP",
     "zones": [
         { "zoneid": 1, "zonetag": "Z1 Law Main" },
         { "zoneid": 2, "zonetag": "Z2 Fire/EMS" },
