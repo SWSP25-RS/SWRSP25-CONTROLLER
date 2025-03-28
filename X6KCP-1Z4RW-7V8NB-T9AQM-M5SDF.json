@@ -1,0 +1,42 @@
+{
+    "isAuthorized": true,
+    "communityName": "LA State FivePD",
+    "communityAbbreviation": "LSFPD",
+    "zones": [
+        { "zoneid": 1, "zonetag": "Z1 LAPD" },
+        { "zoneid": 2, "zonetag": "Z2 LASD" },
+        { "zoneid": 3, "zonetag": "Z3 CHP" },
+        { "zoneid": 4, "zonetag": "Z4 FIRE/EMS" }
+    ],
+    "talkgroups": [
+        { "znid": 1, "name": "PD-Tac-1 Disp", "tgid": 200, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 1, "name": "1 Central", "tgid": 201, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 1, "name": "6 Hollywood", "tgid": 202, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 1, "name": "3 Beach Area", "tgid": 203, "conventional": false, "secure": true, "encryptionKey": "" },
+        
+        { "znid": 2, "name": "Tac-2 Disp", "tgid": 204, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 2, "name": "2,3 East, South L.A.", "tgid": 205, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 2, "name": "28 Compton", "tgid": 206, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 2, "name": "86 County-Tac", "tgid": 207, "conventional": false, "secure": true, "encryptionKey": "" },
+        
+        { "znid": 3, "name": "Tac-3 Disp", "tgid": 208, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 3, "name": "1,2 Interstate", "tgid": 209, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 3, "name": "3 East HW", "tgid": 210, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 3, "name": "3 West HW", "tgid": 211, "conventional": false, "secure": true, "encryptionKey": "" },
+        
+        { "znid": 4, "name": "Tac-4 Disp", "tgid": 212, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 4, "name": "Fireground L.A.", "tgid": 213, "conventional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 4, "name": "Fireground CO", "tgid": 214, "conventional": false, "secure": true, "encryptionKey": "" }
+
+    ],
+    "tones": [
+        { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
+        { "id": 2, "name": "Basic Life Support", "freqA": 110, "freqB": 220 },
+        { "id": 3, "name": "Structure Fire Residential", "freqA": 110, "freqB": 220 },
+        { "id": 4, "name": "Structure Fire Commercial", "freqA": 110, "freqB": 220 },
+        { "id": 5, "name": "Major Incident", "freqA": 110, "freqB": 220 },
+        { "id": 6, "name": "Special Incident HR/AL", "freqA": 110, "freqB": 220 },
+        { "id": 7, "name": "Misc. Advisory Tone (V-A-C)", "freqA": 110, "freqB": 220 },
+        { "id": 8, "name": "Mayday Air Traffic Incident", "freqA": 110, "freqB": 220 }
+    ]
+}
