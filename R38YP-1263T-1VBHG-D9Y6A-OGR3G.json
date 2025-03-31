@@ -3,28 +3,34 @@
     "communityName": "State of Georgia Roleplay",
     "communityAbbreviation": "SOGRP",
     "zones": [
-        { "zoneid": 1, "zonetag": "Z1 GSP Main" },
-        { "zoneid": 2, "zonetag": "Z2 FULTON CO" },
-        { "zoneid": 3, "zonetag": "Z3 APD LAW" }
+        { "zoneid": 1, "zonetag": "Z1 Main" },
+        { "zoneid": 2, "zonetag": "Z2 GSP LAW" },
+        { "zoneid": 3, "zonetag": "Z3 GWINNETT LAW" },
+        { "zoneid": 4, "zonetag": "Z4 APD LAW" }
     ],
     "talkgroups": [
-        { "znid": 1, "name": "GSP Statewide", "tgid": 101, "convectional": false, "secure": true, "encryptionKey": "1SA01" },
-        { "znid": 1, "name": "GSP County", "tgid": 105, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
-        { "znid": 1, "name": "GSP Metro", "tgid": 109, "convectional": false, "secure": true, "encryptionKey": "1PD01" },
-        { "znid": 1, "name": "GSP TAC 1", "tgid": 103, "convectional": false, "secure": true, "encryptionKey": "1PD02" },
-        { "znid": 1, "name": "GSP CAR-CAR", "tgid": 104, "convectional": true, "secure": false, "encryptionKey": "" },
+        { "znid": 1, "name": "GSP Statewide", "tgid": 101, "convectional": false, "secure": true, "encryptionKey": "", "announce": "GSP Statewide" },
+        { "znid": 1, "name": "GCSO Disp", "tgid": 107, "convectional": false, "secure": true, "encryptionKey": "", "announce": "Gwinnett Dispatch" },
+        { "znid": 1, "name": "APD Z1 Disp", "tgid": 112, "convectional": false, "secure": true, "encryptionKey": "", "announce": "Atlanta Zone 1 Dispatch" },
+        { "znid": 1, "name": "GCFES Disp", "tgid": 116, "convectional": false, "secure": true, "encryptionKey": "", "announce": "Fire Dispatch" },
 
-        { "znid": 2, "name": "FCSO Disp", "tgid": 105, "convectional": false, "secure": true, "encryptionKey": "" },
-        { "znid": 2, "name": "FCSO TAC 1", "tgid": 106, "convectional": false, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "FCSO TAC 2", "tgid": 107, "convectional": false, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "FCSO Jail Ops", "tgid": 108, "convectional": false, "secure": false, "encryptionKey": "" },
-        { "znid": 2, "name": "FPD DISP", "tgid": 1051, "convectional": false, "secure": true, "encryptionKey": "" },
-        { "znid": 2, "name": "FPD TAC 1", "tgid": 1052, "convectional": false, "secure": true, "encryptionKey": "" },
+        { "znid": 2, "name": "GSP Statewide", "tgid": 101, "convectional": false, "secure": true, "encryptionKey": "", "announce": "GSP Statewide" },
+        { "znid": 2, "name": "GSP C Dispatch", "tgid": 102, "convectional": false, "secure": false, "encryptionKey": "", "announce": "GSP County" },
+        { "znid": 2, "name": "GSP M Dispatch", "tgid": 103, "convectional": false, "secure": false, "encryptionKey": "", "announce": "GSP Metro" },
+        { "znid": 2, "name": "GSP Command", "tgid": 104, "convectional": false, "secure": false, "encryptionKey": "", "announce": "GSP Command" },
+        { "znid": 2, "name": "GSP Car-Car", "tgid": 105, "convectional": false, "secure": true, "encryptionKey": "", "announce": "GSP Car-to-Car" },
+        { "znid": 2, "name": "GSP Tac 1A", "tgid": 106, "convectional": false, "secure": true, "encryptionKey": "", "announce": "GSP Tactical 1" },
 
-        { "znid": 3, "name": "APD Z3 Disp", "tgid": 109, "secure": true, "encryptionKey": "" },
-        { "znid": 3, "name": "APD Z3 Supv", "tgid": 110, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "APD TAC 1", "tgid": 111, "secure": false, "encryptionKey": "" },
-        { "znid": 3, "name": "APD TAC 2", "tgid": 112, "secure": false, "encryptionKey": "" }
+        { "znid": 3, "name": "GCSO Disp", "tgid": 107, "secure": true, "encryptionKey": "", "announce": "Gwinnett Dispatch" },
+        { "znid": 3, "name": "GCSO Alt", "tgid": 108, "secure": false, "encryptionKey": "", "announce": "Gwinnett Alternate" },
+        { "znid": 3, "name": "GCSO Supv", "tgid": 109, "secure": false, "encryptionKey": "", "announce": "Gwinnett Supervisord" },
+        { "znid": 3, "name": "GCSO Tac 1B", "tgid": 110, "secure": true, "encryptionKey": "", "announce": "Gwinnett Tact 1" },
+        { "znid": 3, "name": "GCSO Tac 2C", "tgid": 111, "secure": true, "encryptionKey": "", "announce": "Gwinnett Tact 2" },
+
+        { "znid": 4, "name": "APD Z4 Disp", "tgid": 112, "convectional": false, "secure": true, "encryptionKey": "", "announce": "Zone 4 Dispatch" },
+        { "znid": 4, "name": "APD Z4 Supv", "tgid": 113, "convectional": false, "secure": true, "encryptionKey": "", "announce": "Zone 4 Supervisor" },
+        { "znid": 4, "name": "APD Tac-1D", "tgid": 114, "convectional": false, "secure": true, "encryptionKey": "", "announce": "APD Tactical 1" },
+        { "znid": 4, "name": "APD Events 1", "tgid": 115, "convectional": false, "secure": true, "encryptionKey": "", "announce": "APD Events" }
     ],
     "tones": [
         { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
