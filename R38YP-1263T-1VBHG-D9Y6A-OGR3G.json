@@ -5,7 +5,7 @@
     "zones": [
         { "zoneid": 1, "zonetag": "Z1 Main" },
         { "zoneid": 2, "zonetag": "Z2 GSP LAW" },
-        { "zoneid": 3, "zonetag": "Z3 GWINNETT LAW" },
+        { "zoneid": 3, "zonetag": "Z3 GWINN LAW" },
         { "zoneid": 4, "zonetag": "Z4 APD LAW" }
     ],
     "talkgroups": [
