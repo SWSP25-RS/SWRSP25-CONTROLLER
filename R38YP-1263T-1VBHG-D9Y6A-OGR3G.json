@@ -2,6 +2,7 @@
     "isAuthorized": true,
     "communityName": "State of Georgia Roleplay",
     "communityAbbreviation": "SOGRP",
+    "voiceModel": 1,
     "zones": [
         { "zoneid": 1, "zonetag": "Z1 Main" },
         { "zoneid": 2, "zonetag": "Z2 GSP LAW" },
