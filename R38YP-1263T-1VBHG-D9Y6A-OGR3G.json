@@ -26,8 +26,8 @@
         { "znid": 3, "name": "LV SC Disp", "tgid": 1302, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LV South" },
         { "znid": 3, "name": "LV Events 1", "tgid": 1303, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LV Events 1" },
         { "znid": 3, "name": "LV TAC-1", "tgid": 1304, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LV Tac Channel" },
-        { "znid": 3, "name": "LV Admin", "tgid": 1305, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LVMPD Administration" },
-        { "znid": 3, "name": "LV Records", "tgid": 1306, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LVMPD Records" },
+        { "znid": 3, "name": "LV Admin", "tgid": 1305, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LV Administration" },
+        { "znid": 3, "name": "LV Records", "tgid": 1306, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LV Records" },
 
         { "znid": 4, "name": "RPD Green", "tgid": 1401, "convectional": false, "secure": true, "encryptionKey": "", "announce": "Reno Law Central" },
         { "znid": 4, "name": "RPD Yellow", "tgid": 1402, "convectional": false, "secure": true, "encryptionKey": "", "announce": "Reno Law North" },
