@@ -1,0 +1,49 @@
+{
+  "isAuthorized": true,
+  "communityName": "Rival of San Andreas Roleplay",
+  "communityAbbreviation": "ROSARP",
+  "voiceModel": 1,
+  "zones": [
+    { "zoneid": 1, "zonetag": "Z1 Main" },
+    { "zoneid": 2, "zonetag": "Z2 SAST LAW" },
+    { "zoneid": 3, "zonetag": "Z3 BCSO LAW" },
+    { "zoneid": 4, "zonetag": "Z4 LSPD LAW" },
+    { "zoneid": 5, "zonetag": "Z5 Other" }
+  ],
+  "talkgroups": [
+  { "znid": 1, "name": "SAST Disp", "tgid": 6101, "convectional": false, "secure": true, "encryptionKey": "EK1101", "announce": "SAST Dispatch" },
+  { "znid": 1, "name": "BCSO Disp", "tgid": 6201, "convectional": false, "secure": true, "encryptionKey": "EK1201", "announce": "BCSO Dispatch" },
+  { "znid": 1, "name": "LSPD Disp", "tgid": 6301, "convectional": false, "secure": true, "encryptionKey": "EK1301", "announce": "LSPD Dispatch" },
+  { "znid": 1, "name": "SA/EMS Disp", "tgid": 6401, "convectional": false, "secure": true, "encryptionKey": "EK1401", "announce": "EMS Dispatch" },
+
+  { "znid": 2, "name": "SAST Disp", "tgid": 6101, "convectional": false, "secure": true, "encryptionKey": "EK1101", "announce": "SAST Dispatch" },
+  { "znid": 2, "name": "SAST BCSO", "tgid": 6102, "convectional": false, "secure": true, "encryptionKey": "EK1102", "announce": "SAST BCSO" },
+  { "znid": 2, "name": "SAST LSPD", "tgid": 6103, "convectional": false, "secure": true, "encryptionKey": "EK1103", "announce": "SAST LSPD" },
+  { "znid": 2, "name": "SAST Tac 1A", "tgid": 6104, "convectional": false, "secure": true, "encryptionKey": "EK1104", "announce": "SAST Tac 1A" },
+
+  { "znid": 3, "name": "BCSO Disp", "tgid": 6201, "convectional": false, "secure": true, "encryptionKey": "EK1201", "announce": "BCSO Dispatch" },
+  { "znid": 3, "name": "BCSO Supv", "tgid": 6202, "convectional": false, "secure": true, "encryptionKey": "EK1202", "announce": "BCSO Supervisor" },
+  { "znid": 3, "name": "BCSO Tac-1B", "tgid": 6203, "convectional": false, "secure": true, "encryptionKey": "EK1203", "announce": "BCSO Tac 1B" },
+  { "znid": 3, "name": "BCSO Tac-2C", "tgid": 6204, "convectional": false, "secure": true, "encryptionKey": "EK1204", "announce": "BCSO Tac 2C" },
+
+  { "znid": 4, "name": "LSPD Disp", "tgid": 6301, "convectional": false, "secure": true, "encryptionKey": "EK1301", "announce": "LSPD Dispatch" },
+  { "znid": 4, "name": "LSPD Supv", "tgid": 6302, "convectional": false, "secure": true, "encryptionKey": "", "announce": "LSPD Supervisor" },
+  { "znid": 4, "name": "LSPD Tac-1D", "tgid": 6303, "convectional": false, "secure": true, "encryptionKey": "EK1303", "announce": "LSPD Tac 1D" },
+  { "znid": 4, "name": "LSPD Tac-1E", "tgid": 6304, "convectional": false, "secure": true, "encryptionKey": "EK1304", "announce": "LSPD Tac 1E" },
+
+  { "znid": 5, "name": "SADOT-1", "tgid": 6501, "convectional": false, "secure": true, "encryptionKey": "", "announce": "DOT Channel" },
+  { "znid": 5, "name": "FBI", "tgid": 6502, "convectional": false, "secure": true, "encryptionKey": "", "announce": "FBI Channel" },
+  { "znid": 5, "name": "USMS", "tgid": 6503, "convectional": false, "secure": true, "encryptionKey": "", "announce": "USMS Channel" },
+  { "znid": 5, "name": "Helpdesk", "tgid": 6504, "convectional": true, "secure": false, "encryptionKey": "", "announce": "Helpdesk" }
+],
+  "tones": [
+    { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
+    { "id": 2, "name": "Basic Life Support", "freqA": 110, "freqB": 220 },
+    { "id": 3, "name": "Structure Fire Residential", "freqA": 110, "freqB": 220 },
+    { "id": 4, "name": "Structure Fire Commercial", "freqA": 110, "freqB": 220 },
+    { "id": 5, "name": "Major Incident", "freqA": 110, "freqB": 220 },
+    { "id": 6, "name": "Special Incident HR/AL", "freqA": 110, "freqB": 220 },
+    { "id": 7, "name": "Misc. Advisory Tone (V-A-C)", "freqA": 110, "freqB": 220 },
+    { "id": 8, "name": "Mayday Air Traffic Incident", "freqA": 110, "freqB": 220 }
+  ]
+}
