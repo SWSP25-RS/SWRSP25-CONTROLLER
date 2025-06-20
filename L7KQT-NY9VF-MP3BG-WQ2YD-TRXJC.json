@@ -1,0 +1,49 @@
+{
+  "isAuthorized": true,
+  "communityName": "San Andreas State Roleplay",
+  "communityAbbreviation": "SASRP",
+  "voiceModel": 1,
+  "zones": [
+    { "zoneid": 1, "zonetag": "PUBLIC SAFETY" },
+    { "zoneid": 2, "zonetag": "BLAINE LE" },
+    { "zoneid": 3, "zonetag": "SANTOS EMRG" },
+    { "zoneid": 4, "zonetag": "FIRE MED" },
+    { "zoneid": 5, "zonetag": "MUTUAL AID" }
+  ],
+  "talkgroups": [
+    { "znid": 1, "name": "D1 SOUTH", "tgid": 7101, "convectional": false, "secure": true, "encryptionKey": "DK1001", "announce": "DISPATCH SOUTH" },
+    { "znid": 1, "name": "D2 NORTH", "tgid": 7102, "convectional": false, "secure": true, "encryptionKey": "DK1002", "announce": "DISPATCH NORTH" },
+    { "znid": 1, "name": "DPS C2C", "tgid": 7103, "convectional": false, "secure": true, "encryptionKey": "DK1003", "announce": "CAR TWO CAR" },
+    { "znid": 1, "name": "DPS EMRG", "tgid": 7104, "convectional": false, "secure": true, "encryptionKey": "DK1004", "announce": "PUBLIC SAFETY EMERGENCY" },
+
+    { "znid": 2, "name": "BCSO DISP", "tgid": 7201, "convectional": false, "secure": true, "encryptionKey": "DK1005", "announce": "BLAINE DISPATCH" },
+    { "znid": 2, "name": "SVPD DISP", "tgid": 7202, "convectional": false, "secure": true, "encryptionKey": "DK1006", "announce": "SENORA DISPATCH" },
+    { "znid": 2, "name": "TWP DISP", "tgid": 7203, "convectional": false, "secure": true, "encryptionKey": "DK1007", "announce": "TOWNSHIP DISPATCH" },
+    { "znid": 2, "name": "JAIL SERVICES", "tgid": 7204, "convectional": false, "secure": true, "encryptionKey": "DK1008", "announce": "JAIL SERVICES" },
+
+    { "znid": 3, "name": "COUNTY DISP", "tgid": 7301, "convectional": false, "secure": true, "encryptionKey": "DK1009", "announce": "SANTOS COUNTY DISPATCH" },
+    { "znid": 3, "name": "LS EAST", "tgid": 7302, "convectional": false, "secure": true, "encryptionKey": "DK1010", "announce": "EAST DISPATCH" },
+    { "znid": 3, "name": "LS WEST", "tgid": 7303, "convectional": false, "secure": true, "encryptionKey": "DK1011", "announce": "WEST DISPATCH" },
+    { "znid": 3, "name": "LS CENTRAL", "tgid": 7304, "convectional": false, "secure": true, "encryptionKey": "DK1012", "announce": "CENTRAL DISPATCH" },
+
+    { "znid": 4, "name": "FIRE CENT", "tgid": 7401, "convectional": false, "secure": true, "encryptionKey": "DK1013", "announce": "FIRE CENTRAL" },
+    { "znid": 4, "name": "FIRE CMD", "tgid": 7402, "convectional": false, "secure": true, "encryptionKey": "DK1014", "announce": "FIRE COMMAND" },
+    { "znid": 4, "name": "MED DISP", "tgid": 7403, "convectional": false, "secure": true, "encryptionKey": "DK1015", "announce": "MEDICAL DISPATCH" },
+    { "znid": 4, "name": "PILLBOX-MED", "tgid": 7404, "convectional": false, "secure": true, "encryptionKey": "DK1016", "announce": "PILLBOX MEDICAL" },
+
+    { "znid": 5, "name": "MUTUAL AID 1", "tgid": 7501, "convectional": false, "secure": true, "encryptionKey": "DK1017", "announce": "MUTUAL AID 1" },
+    { "znid": 5, "name": "MUTUAL AID 2", "tgid": 7502, "convectional": false, "secure": true, "encryptionKey": "DK1018", "announce": "MUTUAL AID 2" },
+    { "znid": 5, "name": "MUTUAL AID 3", "tgid": 7503, "convectional": false, "secure": true, "encryptionKey": "DK1019", "announce": "MUTUAL AID 3" },
+    { "znid": 5, "name": "MUTUAL AID 4", "tgid": 7504, "convectional": false, "secure": true, "encryptionKey": "DK1020", "announce": "MUTUAL AID 4" }
+  ],
+  "tones": [
+    { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
+    { "id": 2, "name": "Basic Life Support", "freqA": 110, "freqB": 220 },
+    { "id": 3, "name": "Structure Fire Residential", "freqA": 110, "freqB": 220 },
+    { "id": 4, "name": "Structure Fire Commercial", "freqA": 110, "freqB": 220 },
+    { "id": 5, "name": "Major Incident", "freqA": 110, "freqB": 220 },
+    { "id": 6, "name": "Special Incident HR/AL", "freqA": 110, "freqB": 220 },
+    { "id": 7, "name": "Misc. Advisory Tone (V-A-C)", "freqA": 110, "freqB": 220 },
+    { "id": 8, "name": "Mayday Air Traffic Incident", "freqA": 110, "freqB": 220 }
+  ]
+}
