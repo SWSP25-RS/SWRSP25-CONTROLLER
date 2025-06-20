@@ -1,0 +1,49 @@
+{
+  "isAuthorized": true,
+  "communityName": "",
+  "communityAbbreviation": "",
+  "voiceModel": 1,
+  "zones": [
+    { "zoneid": 1, "zonetag": "" },
+    { "zoneid": 2, "zonetag": "" },
+    { "zoneid": 3, "zonetag": "" },
+    { "zoneid": 4, "zonetag": "" },
+    { "zoneid": 5, "zonetag": "" }
+  ],
+  "talkgroups": [
+    { "znid": 1, "name": "", "tgid": 101, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 1, "name": "", "tgid": 102, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 1, "name": "", "tgid": 103, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 1, "name": "", "tgid": 104, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+
+    { "znid": 2, "name": "", "tgid": 105, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 2, "name": "", "tgid": 106, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 2, "name": "", "tgid": 107, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 2, "name": "", "tgid": 108, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+
+    { "znid": 3, "name": "", "tgid": 109, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 3, "name": "", "tgid": 110, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 3, "name": "", "tgid": 111, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 3, "name": "", "tgid": 112, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+
+    { "znid": 4, "name": "", "tgid": 113, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 4, "name": "", "tgid": 114, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 4, "name": "", "tgid": 115, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 4, "name": "", "tgid": 116, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+
+    { "znid": 5, "name": "", "tgid": 117, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 5, "name": "", "tgid": 118, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 5, "name": "", "tgid": 119, "convectional": false, "secure": true, "encryptionKey": "", "announce": "" },
+    { "znid": 5, "name": "", "tgid": 120, "convectional": true, "secure": false, "encryptionKey": "", "announce": "" }
+  ],
+  "tones": [
+    { "id": 1, "name": "Advanced Life Support", "freqA": 110, "freqB": 220 },
+    { "id": 2, "name": "Basic Life Support", "freqA": 110, "freqB": 220 },
+    { "id": 3, "name": "Structure Fire Residential", "freqA": 110, "freqB": 220 },
+    { "id": 4, "name": "Structure Fire Commercial", "freqA": 110, "freqB": 220 },
+    { "id": 5, "name": "Major Incident", "freqA": 110, "freqB": 220 },
+    { "id": 6, "name": "Special Incident HR/AL", "freqA": 110, "freqB": 220 },
+    { "id": 7, "name": "Misc. Advisory Tone (V-A-C)", "freqA": 110, "freqB": 220 },
+    { "id": 8, "name": "Mayday Air Traffic Incident", "freqA": 110, "freqB": 220 }
+  ]
+}
